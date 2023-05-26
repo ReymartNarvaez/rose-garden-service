@@ -10,18 +10,17 @@ public class ProductEntity extends PanacheEntityBase {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
+    private String productName;
     private double price;
 
     public ProductEntity() {
     }
 
-    public ProductEntity(Long id, String name, double price) {
+    public ProductEntity(Long id, String productName, double price) {
         this.id = id;
-        this.name = name;
+        this.productName = productName;
         this.price = price;
     }
-
 
     public Long getId() {
         return id;
@@ -31,12 +30,12 @@ public class ProductEntity extends PanacheEntityBase {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getProductName() {
+        return productName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
 
     public double getPrice() {
