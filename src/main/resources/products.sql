@@ -1,20 +1,20 @@
-INSERT INTO products(productName, price)
-VALUES ('Hello From Quarkus', '350');
+INSERT INTO products(productName, price, productImage)
+VALUES ('Pot Original', '350', 'pot1');
 
-INSERT INTO products(productName, price)
-VALUES ('Pot Original', '350');
+INSERT INTO products(productName, price, productImage)
+VALUES ('Pot Legend', '550', 'pot2');
 
-INSERT INTO products(productName, price)
-VALUES ('Pot Legend', '550');
+INSERT INTO products(productName, price, productImage)
+VALUES ('Pot DarkStyle', '450', 'pot3');
 
-INSERT INTO products(productName, price)
-VALUES ('Pot DarkStyle', '450');
+INSERT INTO products(productName, price, productImage)
+VALUES ('Pot Style', '250', 'pot4');
 
-INSERT INTO products(productName, price)
-VALUES ('Pot Style', '250');
+INSERT INTO products(productName, price, productImage)
+VALUES ('Pot LightStyle', '150', 'pot1', productImage);
 
-INSERT INTO products(productName, price)
-VALUES ('Pot LightStyle', '150');
+INSERT INTO products(productName, price, productImage)
+VALUES ('Pot', '90', 'pot2');
 
-INSERT INTO products(productName, price)
-VALUES ('Pot', '90');
+INSERT INTO products(productName, price, productImage)
+VALUES ('Pot DarkStyle', '650', 'pot3');

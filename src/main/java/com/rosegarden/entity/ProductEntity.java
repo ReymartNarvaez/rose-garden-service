@@ -12,14 +12,16 @@ public class ProductEntity extends PanacheEntityBase {
     private Long id;
     private String productName;
     private double price;
+    private String productImage;
 
     public ProductEntity() {
     }
 
-    public ProductEntity(Long id, String productName, double price) {
+    public ProductEntity(Long id, String productName, double price, String productImage) {
         this.id = id;
         this.productName = productName;
         this.price = price;
+        this.productImage = productImage;
     }
 
     public Long getId() {
@@ -44,5 +46,13 @@ public class ProductEntity extends PanacheEntityBase {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public String getProductImage() {
+        return productImage;
+    }
+
+    public void setProductImage(String productImage) {
+        this.productImage = productImage;
     }
 }
